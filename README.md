@@ -2,9 +2,9 @@
 
 This is a fork of SM64Plus that attempts to make it playable in the web browser
 
-![image](https://github.com/burnedpopcorn/sm64plus-webport-PoC/blob/master/SM64PlusPoC.png)
+![image](https://github.com/burnedpopcorn/sm64plus-webport-PoC/blob/master/SM64PlusPOC.png)
 
-![image](https://github.com/burnedpopcorn/sm64plus-webport-PoC/blob/master/SM64PlusPoCSettings.png)
+![image](https://github.com/burnedpopcorn/sm64plus-webport-PoC/blob/master/SM64PlusPOCSettings.png)
 
 ### AS OF 5/11/24, 
 
