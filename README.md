@@ -2,6 +2,10 @@
 
 This is a fork of SM64Plus that attempts to make it playable in the web browser
 
+![image]()
+
+![image]()
+
 ### AS OF 5/11/24, 
 
 only the launcher is useable, and the game itself isn't.
