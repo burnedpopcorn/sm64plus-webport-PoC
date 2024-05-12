@@ -8,6 +8,29 @@ only the launcher is useable, and the game itself isn't.
 - If I can get the game working along with the launcher, it will be on a different github repo, and this one will be archived (no promises)
 - Why that is the case is because this is PoC (for now), which if it develops to being fully functional, will be inaccurate to say the least
 
+### [Download for SM64 Launcher](https://drive.google.com/file/d/1OPXG3rSz2o_rIA3b3S4FUOhqPOFKp9hw/view?usp=drive_link)
+To run the project (if you really want to):
+
+- Download it and extract the .zip
+
+### For Linux
+Open the Terminal and input: { cd '[File Path to]/SM64Plus_WebBuild_POC_Dump/runner/ } (not to any specific file, just the downloaded folder), then:
+- Input { python3 -m http.server }
+- Then open a Browser and open web page https://localhost:8000/runner.html (this link you can copy if you did the previous steps)
+- Then barely enjoy 
+
+### For Windows
+Open Powershell and do everything in the Linux instructions, but:
+- Input { py -m http.server }, instead of { python3 -m http.server }
+> [!NOTE]  
+> This assumes Python is installed on your Windows Computer
+>
+> If not, install it, or use some other method to run a local web server
+>
+> As the file:// protocol (double clicking on runner.html) does not work
+- Then continue with the Linux instructions (including barely enjoying)
+
+
 ### [Orginal SM64Plus Project](https://github.com/MorsGames/sm64plus)
 
 ### Credits For the Original SM64Plus:
