@@ -6,7 +6,7 @@ This is a fork of SM64Plus that attempts to make it playable in the web browser
 
 only the launcher is useable, and the game itself isn't.
 - If I can get the game working along with the launcher, it will be on a different github repo, and this one will be archived (no promises)
-- Why that is the case is because this one will contain the launcher itself (as the files fit within Github's Limit), while the other one will be too big for Github
+- Why that is the case is because this is PoC (for now), which if it develops to being fully functional, will be inaccurate to say the least
 
 ### [Orginal SM64Plus Project](https://github.com/MorsGames/sm64plus)
 
