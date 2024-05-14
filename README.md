@@ -20,7 +20,7 @@ only the launcher is useable, and the game itself isn't.
 - Download it and extract the .zip
 
 ### For Linux
-Open the Terminal and input: { cd '[File Path to]/SM64Plus_WebBuild_POC_Dump/runner/ } (not to any specific file, just the downloaded folder), then:
+Open the Terminal and input: { cd '[File Path to]/SM64Plus_WebBuild_POC_Dump/runner/ } (not to any specific file, just the downloaded folder and DON'T include the brackets), then:
 - Input { python3 -m http.server }
 - Then open a Browser and open web page https://localhost:8000/runner.html (this link you can copy if you did the previous steps)
 - Then barely enjoy 
