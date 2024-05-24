@@ -19,6 +19,7 @@ only the launcher is useable, and the game itself isn't.
 ## To run the project (if you really want to):
 
 - Download it and extract the .zip
+
 This section will not include instructions to import this into a web server because there's no point (again the game itself doesn't even exist, just the launcher) and its really easy
 
 ### For Linux
