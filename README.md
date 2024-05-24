@@ -52,7 +52,9 @@ Also the code for the actual game is [here](https://github.com/MorsGames/sm64plu
 > [!NOTE]
 > If you will use this as a base for a full game port to go along side with this launcher, keep in mind that
 > - You will need Emscripten to port it (Apparently version 1.39.5 works best, forgot where I heard that tho)
-> And there it is very unlikely that both projects can actually communicate with each other like they're supposed to
+>
+>  And it is very unlikely that both projects can actually communicate with each other like they're supposed to, which will make full functionality very hard to achieve without extensive work and knowledge being poured in, so good luck
+> to anyone that's up to the task
 
 ### [Orginal SM64Plus Project](https://github.com/MorsGames/sm64plus)
 
