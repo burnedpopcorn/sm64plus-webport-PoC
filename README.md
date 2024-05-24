@@ -20,7 +20,7 @@ only the launcher is useable, and the game itself isn't.
 
 - Download it and extract the .zip
 
-This section will not include instructions to import this into a web server because there's no point (again the game itself doesn't even exist, just the launcher) and its really easy
+This section will not include instructions to import this into a web server because there's no point (again the game itself doesn't even exist, just the launcher) and you should know how to if you have a web server anyways
 
 ### For Linux
 Open the Terminal and input: { cd '[File Path to]/SM64Plus_WebBuild_POC_Dump/runner/ } (not to any specific file, just the downloaded folder and DON'T include the brackets), then:
