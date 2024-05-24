@@ -37,6 +37,22 @@ Open Powershell and do everything in the Linux instructions, but:
 > As the file:// protocol (double clicking on runner.html) does not work
 - Then continue with the Linux instructions (including barely enjoying)
 
+### To Compile for Yourself
+- Download the Source Code from Mors' Repository [here](https://github.com/MorsGames/sm64plus-launcher)
+- Import it into the 2022 LTS version of GameMaker Studio 2
+> [!WARNING]
+> Using any other version of GameMaker could and most likely would create problems when compiling
+- Make some changes if you want to contribute
+- Compile the project using the GX.GAMES and VM Export Options (HTML will not work unless some heavy modification is done if at all)
+- You can then just go to C:/Users/(your username)/AppData/Local/GameMakerStudio2-LTS/GMS2TEMP while locally running the game
+- In which you will find a folder called SM64Plus_(some numbers)_VM after you compiled the project
+- At which point you can copy the files to a non-temporary folder within your computer
+
+Also the code for the actual game is [here](https://github.com/MorsGames/sm64plus), but you need your own copy of sm64 to get the all the resources to port to the web browser
+> [!NOTE]
+> If you will use this as a base for a full game port to go along side with this launcher, keep in mind that
+> - You will need Emscripten to port it (Apparently version 1.39.5 works best, forgot where I heard that tho)
+> And there it is very unlikely that both projects can actually communicate with each other like they're supposed to
 
 ### [Orginal SM64Plus Project](https://github.com/MorsGames/sm64plus)
 
