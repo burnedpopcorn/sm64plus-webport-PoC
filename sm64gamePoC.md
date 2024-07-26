@@ -56,6 +56,6 @@ What does work is Audio and Controls, so you can still technically play it
 - removed wup.c
 > I'm pretty it calls LibUSB, but I can't get it to find LibUSB, so it errors out, because again implict functions
 >
-> plus, keyboard controls still work without it, so I don't really care about it
+> plus, keyboard controls still work without it, and LibUSB only really states what is connected by USB (like keyboards, mouse, chargers), so I don't really care about it
 
 This stuff also might be the reason why I'm getting graphics issues
