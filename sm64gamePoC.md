@@ -27,12 +27,17 @@ Other Probably needed Dependencies
 
 1. Open Terminal
 2. ```cd``` into your ```emsdk``` folder (for me, it's ```cd emsdk```)
+> You should have Emscripten set up BEFORE doing any of this
 3. Add Emscripten to your PATH Environment Variables by using ```source emsdk_env.sh```
 4. Do ```cd``` again, and then cd into the root of the source code
 5. Then type in ```emmake make TARGET_WEB=1``` to start compiling
 > If something goes wrong, you should be able to do ```emmake make clean``` to wipe all progress to completely start over
 >
-> If that don't work, then make an Issue here
+> If that don't work, then just delete the ```/build``` directory
+>
+> and if the project fails to compile, make an Issue here
+>
+> NO NOT NOW! REMEMBER THIS IS STILL WIP
 
 ## Current Issues
 There are massive issues, such as
