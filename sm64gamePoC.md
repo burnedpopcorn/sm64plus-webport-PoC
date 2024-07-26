@@ -26,8 +26,20 @@ Other Probably needed Dependencies
 
 1. Open Terminal
 2. ```cd``` into your ```emsdk``` folder (for me, it's ```cd emsdk```)
-3. Add Emscripten to your PATH Directory by using ```source emsdk_env.sh```
+3. Add Emscripten to your PATH Environment Variables by using ```source emsdk_env.sh```
+4. Do ```cd``` again, and then cd into the root of the source code
+5. Then type in ```emmake make TARGET_WEB=1``` to start compiling
+> If something goes wrong, you should be able to do ```emmake make clean``` to wipe all progress to completely start over
+>
+> If that don't work, then make an Issue here
 
-shit, i gotta end it here, sorry
+## Current Issues
+There are massive issues, such as
 
-will update in due time
+- Graphics don't display
+> Because of this, I can't really Playtest it or discover other issues
+
+What does work is Audio and Controls, so you can still technically play it
+
+This is probably due to the Dependencies that for me are missing in my PATH Variables
+> I have them installed, but they won't show up in it
