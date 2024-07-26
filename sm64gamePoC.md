@@ -17,12 +17,12 @@
 > I have my custom Makefile that works with emcc, so download it from Releases
 > 
 > it is shit, and WILL make anyone with any knowledge on makefiles recoil in disgust, but it should work :)
-
-Other Probably needed Dependencies
-
-- LibUSB        ```sudo apt-get install libusb-1.0-0-dev```
-- LibSDL2       ```sudo apt-get install libsdl2-dev```
-> I say should, because it is possible to compile it without them, but having them missing is probably the reason why I'm having issues
+- LibSDL
+> just use Emscripten's built-in SDL package
+>
+> it should be auto-installed on your computer when you run my custom makefile
+>
+> (THIS MAKEFILE HAS NOT RELEASED YET)
 
 ## Building
 
@@ -48,5 +48,14 @@ There are massive issues, such as
 
 What does work is Audio and Controls, so you can still technically play it
 
-This is probably due to the Dependencies that for me are missing in my PATH Variables
-> I have them installed, but they won't show up in it
+## Botched shit I did
+- removed code relating to in-game camera modes in camera.c
+> did this because it caused implict function errors cuz SOMEONE decided to state variables from a different c file, and then NOT INCLUDE SAID FILE
+- removed c files relating to Direct X11 and 12
+> because this is Windows only APIs, so they obviously won't work
+- removed wup.c
+> I'm pretty it calls LibUSB, but I can't get it to find LibUSB, so it errors out, because again implict functions
+>
+> plus, keyboard controls still work without it, so I don't really care about it
+
+This stuff also might be the reason why I'm getting graphics issues
