@@ -19,8 +19,8 @@
 
 Other Probably needed Dependencies
 
-- LibUSB        (sudo apt-get install libusb1.0)
-- LibSDL2       (sudo apt-get install libsdl2-dev)
+- LibUSB        ```sudo apt-get install libusb1.0```
+- LibSDL2       ```sudo apt-get install libsdl2-dev```
 > I say should, because it is possible to compile it without them, but having them missing is probably the reason why I'm having issues
 
 ## Building
