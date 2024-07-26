@@ -14,6 +14,7 @@
 > To compile the files into WebAssembly
 - The Game Files and Source Code
 > I have my custom Makefile that works with emcc, so gonna upload it when I can fix current issues
+> 
 > it is shit, and WILL make anyone with any knowledge on makefiles recoil in disgust, but it should work :)
 
 Other Probably needed Dependencies
