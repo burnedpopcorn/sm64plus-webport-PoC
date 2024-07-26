@@ -6,7 +6,7 @@
 > This is currently a HEAVY WIP, and there are still some important things that I have to fix
 >
 > also I am solely using Linux Mint for this, so no Windows Compiling instructions for you
-> 
+
 > plus I'm pretty sure Windows just uses WSL anyways
 
 ## Prerequisites
